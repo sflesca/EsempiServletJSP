@@ -6,6 +6,10 @@
     <servlet>
         <servlet-name>ServletMWC</servlet-name>
         <servlet-class>psw.servlet.ServletMVC</servlet-class>
+        <init-param>
+            <param-name>mioparam</param-name>
+            <param-value>0</param-value>
+        </init-param>
     </servlet>
     <servlet-mapping>
         <servlet-name>ServletMWC</servlet-name>

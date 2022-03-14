@@ -11,9 +11,10 @@
 <html>
 <head>
     <title>Title</title>
+    <link type="text/css" rel="stylesheet" href="miostile.css">
 </head>
 <body>
-I clienti ne db sono i seguenti
+<h1>I clienti ne db sono i seguenti</h1>
 <table border="1">
     <tr>
         <th>id</th>

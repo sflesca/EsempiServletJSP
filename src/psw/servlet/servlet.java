@@ -37,7 +37,7 @@ public class servlet extends HttpServlet {
         try {
             c = db.getConnection();
             Statement s = c.createStatement();
-            String query="SELECT * FROM cliente";
+            String query="SELECT * FROM cliente order by id";
             ResultSet rs=s.executeQuery(query);
             List<Cliente> lc = new LinkedList<Cliente>();
             while(rs.next()) {

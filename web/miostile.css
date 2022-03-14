@@ -1,0 +1,33 @@
+h1, h2, h3. h4, h5, h6 {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #996666; /* ruggine */
+}
+
+h1 {
+    font-size: 30pt;
+}
+
+h2 {
+    color: #999999; /* grigio scuro */
+    font-size: l6pt;
+}
+
+p {
+    font-family: "Book Antiqua", serif;
+    font-size: l2pt;
+}
+
+ul li {
+    font-family: "Book Antiqua", serif;
+    font-size: l2pt;
+    list-style-type: square;
+}
+
+h1:hover {
+    color: #3366ff;
+}
+
+tr:hover {
+    color: #3366ff;
+}

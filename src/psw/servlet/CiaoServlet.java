@@ -20,7 +20,7 @@ public class CiaoServlet extends HttpServlet {
 
     int cont;
 
-    @Resource(mappedName = "java:/ProvaPostgresDS")
+    @Resource(mappedName = "java:/SergioPostgresDS")
     DataSource db;
 
     @Override
